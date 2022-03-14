@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   }
+    
+   body {
+    background-color: rgb(209, 80, 80);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+   }
+    
+   a {
+    text-decoration: none;
+    color: #fff;
+   }
+    
+   .menuBlock ul {
+    display: flex;
+    list-style: none;
+   }
+   .menuBlock ul li a {
+    background: rgb(224, 224, 44);
+    color: #111;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    box-shadow: inset 0px -1px 0px 1px #ff5722;
+    transition: ease-in-out 0.7s all;
+   }
+   .menuBlock ul li a:hover {
+    background-color: rgb(204 189 57);
+   }
+    
+   .logoBlock a {
+    color: rgb(224, 224, 44);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #111;
+   }
+    
+   #empTable article {
+    background-color: #343535ad;
+    margin: 20px auto;
+    padding: 10px;
+    width: 85%;
+    height: 75vh;
+   }
+    
+   table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #111;
+    text-transform: capitalize;
+   }
+   tr,
+   td,
+   th {
+    border-collapse: collapse;
+    padding: 10px;
+    border: 1px solid rgb(224, 224, 44);
+    color: #fff;
+    text-align: center;
+   }
+   thead {
+    background: rgb(224, 224, 44);
+   }
+    
+   thead th {
+    color: #111;
+   }
+    
+   #authBlock article {
+    background-color: #343535ad;
+    margin: 20px auto;
+    padding: 10px;
+    width: 85%;
+    height: 75vh;
+   }
+   #authBlock article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: inherit;
+   }
+    
+   #authBlock article div h2 {
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+   }
+    
+   #authBlock article div form {
+    background-color: #111;
+    padding: 20px;
+    width: 25%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 4px;
+    border-bottom: 1px solid yellow;
+   }
+   #authBlock article div label {
+    width: 100%;
+    padding: 7px 0;
+    text-transform: capitalize;
+    font-weight: bold;
+   }
+   #authBlock article div input {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #343535ad;
+    color: #fff;
+    border-radius: 4px;
+    margin: 10px 0;
+    border: none;
+   }
+    
+   #authBlock article div button {
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    background-color: yellow;
+    color: #111;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: ease all 0.5s;
+   }
+    
+   #authBlock article div button:hover {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid yellow;
+   }
